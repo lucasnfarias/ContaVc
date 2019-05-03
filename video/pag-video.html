@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139406983-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-139406983-1');
+    </script>
+    <title>Blog ContaVc</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../fotos/icone-aba.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
+</head>
+<body id="interface">
+    <div class="container-fluid">
+        <nav class="nav justify-content-between align-items-center">
+            <div class="col-sm-3 text-center">
+                <img src="../fotos/logotipo.gif" class="img-responsive" alt="Logo do Blog Conta.Vc">
+            </div>
+            <div class="col-sm-7">
+                    <ul class="list-unstyled list-inline text-center">
+                        <li class="list-inline-item"><a class="nav-link" href="../index.html">Home</a></li>
+                        <li class="list-inline-item"><a class="nav-link" href="../index.html">Artigos</a></li>
+                        <li class="list-inline-item"><a class="nav-link" href="#">Formulário</a></li>
+                    <ul>
+            </div>
+        </nav>
+    <main>
+        <div class="container">
+            <div class="row justify-content-center my-3">                
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2aqOh0q7wQg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-main py-5 small text-center text-white" id="rodape">
+                <div class="container">
+                    <p>Copyright&copy; 2019 - by Conta.Vc<br/>
+                    <a href="https://www.facebook.com/lucas.farias.96742" target="_blank">Facebook</a> | 
+                    <a href="http://twitter.com/cursosemvideo" target="_blank">Twitter</a></p>
+                    <address>
+                        <strong>Conta.Vc</strong><br>
+                        Rua Iapó, 1245<br>
+                        Curitiba, PR<br>
+                        <abbr title="Telefone">Tel:</abbr> (41) 99990-6589
+                    </address>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
+
+    <!-- Add additional services that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-messaging.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-functions.js"></script>
+    <script src="../js/ipGet.js"></script>
+    <script src="../js/real-time-db.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+    apiKey: "AIzaSyApEsYTVl29adAKNzv0zlZeSDRyGZrKuSc",
+    authDomain: "contavc-c943a.firebaseapp.com",
+    databaseURL: "https://contavc-c943a.firebaseio.com",
+    projectId: "contavc-c943a",
+    storageBucket: "contavc-c943a.appspot.com",
+    messagingSenderId: "559821380576"
+    };
+    firebase.initializeApp(config);
+    var database = firebase.database();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
