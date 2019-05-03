@@ -32,6 +32,35 @@ div#cont-online {
     background-position: -200px -100px;
 }
 
+div#sororidade {
+    background: url("../fotos/O-Que-e-Sororidade.jpg");
+    height: 300px;
+    background-position: -200px -100px;
+}
+
+div#transicao {
+    background: url("../fotos/por-que-utilizar-contabilidade-online.png");
+    height: 300px;
+    background-position: -200px -100px;
+}
+
+div#o-blog-capa {
+    background: url("../fotos/o-blog-capa.png");
+    height: 300px;
+    background-position: -200px -100px;
+}
+
+ul#lista-transicao {
+    font-family: 'Lato', sans-serif;
+    font-size: 19pt;
+    color: #0b1e51;
+}
+
+ul a {
+    font-family: 'Lato', sans-serif;
+    color: #0b1e51;
+}
+
 div#artigo h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -46,9 +75,20 @@ div#artigo h2 {
     color: #0b1e51;
 }
 
-div#artigo p {
+div#artigo p, h3 {
     font-family: 'Lato', sans-serif;
     font-size: 19pt;
+    color: #0b1e51;
+}
+
+div.card h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #0b1e51;
+}
+
+div.card p {
+    font-family: 'Lato', sans-serif;
     color: #0b1e51;
 }
 
