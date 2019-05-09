@@ -112,3 +112,8 @@ div#rodape {
 div#rodape strong {
     color: #e8b33b;
 }
+
+.sympla-ing {
+    display: flex;
+    margin:auto;
+}
